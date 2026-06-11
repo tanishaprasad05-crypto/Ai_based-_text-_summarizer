@@ -36,20 +36,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Screenshots
-
-### Home Page
-
-![Home](screenshots/homme.png)
-
-### Summarization Output
-
-![Summary](screenshots/summarizer.png)
-
-### Model Comparison
-
-![Comparison](screenshots/comparison.png)
-
 ## Future Improvements
 
 * Multi-language support
