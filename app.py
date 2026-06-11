@@ -22,8 +22,12 @@ from sumy.nlp.tokenizers import Tokenizer
 from sumy.nlp.stemmers import Stemmer
 from sumy.utils import get_stop_words
 
-nltk.download("punkt", quiet=True)
-nltk.download("stopwords", quiet=True)
+import nltk
+
+nltk.download('punkt')
+nltk.download('punkt_tab')
+nltk.download('stopwords')
+
 
 # ─────────────────────────────────────────────────────────────
 #  PAGE CONFIG
