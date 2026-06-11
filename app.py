@@ -22,8 +22,7 @@ from sumy.nlp.tokenizers import Tokenizer
 from sumy.nlp.stemmers import Stemmer
 from sumy.utils import get_stop_words
 
-nltk.download("punkt",     quiet=True)
-nltk.download("punkt_tab", quiet=True)
+nltk.download("punkt", quiet=True)
 nltk.download("stopwords", quiet=True)
 
 # ─────────────────────────────────────────────────────────────
@@ -355,7 +354,6 @@ p, li { color: var(--white-55); line-height: 1.75; font-size: 14.5px; }
 .pill {
     display       : inline-flex;
     align-items   : center;
-    gap           : 6px;
     padding       : 5px 14px;
     border-radius : 999px;
     font-size     : 9px;
