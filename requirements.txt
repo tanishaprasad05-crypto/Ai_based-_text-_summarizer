@@ -4,5 +4,5 @@ PyPDF2
 sumy
 sentencepiece
 transformers==4.44.0
-tokenizers==0.19.1
+tokenizers==0.21.0
 torch==2.3.0
