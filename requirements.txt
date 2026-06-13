@@ -3,5 +3,6 @@ nltk
 PyPDF2
 sumy
 sentencepiece
-transformers==4.41.2
-torch==2.1.2
+transformers==4.44.0
+tokenizers==0.19.1
+torch==2.3.0
