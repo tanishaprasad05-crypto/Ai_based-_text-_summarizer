@@ -4,6 +4,10 @@
 
 An AI-powered Text Summarizer built using Python, NLP, Machine Learning, and Streamlit. The application supports both Extractive and Abstractive Summarization techniques and provides additional NLP features such as keyword extraction, readability analysis, sentiment analysis, PDF text extraction, and summary comparison.
 
+## 🚀 Live Demo
+👉 Click here to run the app:
+https://aibased-text-summarizer-zvagjprmfatttz3elkxsnb.streamlit.app/
+
 ## Features
 
 * Extractive Summarization (LSA)
