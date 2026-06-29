@@ -22,10 +22,17 @@ from sumy.nlp.tokenizers import Tokenizer
 from sumy.nlp.stemmers import Stemmer
 from sumy.utils import get_stop_words
 
-import nltk
 
-nltk.download('punkt')
-nltk.download('stopwords')
+
+try:
+    nltk.data.find("tokenizers/punkt")
+except LookupError:
+    nltk.download("punkt")
+
+try:
+    nltk.data.find("corpora/stopwords")
+except LookupError:
+    nltk.download("stopwords")
 
 
 # ─────────────────────────────────────────────────────────────
