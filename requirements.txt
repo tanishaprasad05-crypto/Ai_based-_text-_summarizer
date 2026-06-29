@@ -1,0 +1,7 @@
+streamlit
+nltk
+PyPDF2
+sumy
+torch
+transformers
+tokenizers
