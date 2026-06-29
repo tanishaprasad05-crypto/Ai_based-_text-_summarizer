@@ -24,8 +24,22 @@ from sumy.utils import get_stop_words
 
 import nltk
 
-nltk.download('punkt')
-nltk.download('stopwords')
+import nltk
+
+try:
+    nltk.data.find("tokenizers/punkt")
+except LookupError:
+    nltk.download("punkt")
+
+try:
+    nltk.data.find("tokenizers/punkt_tab")
+except LookupError:
+    nltk.download("punkt_tab")
+
+try:
+    nltk.data.find("corpora/stopwords")
+except LookupError:
+    nltk.download("stopwords")
 
 # ─────────────────────────────────────────────────────────────
 #  PAGE CONFIG
